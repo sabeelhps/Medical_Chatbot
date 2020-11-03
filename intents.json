@@ -1,265 +1,1532 @@
 {
-  "intents": [
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    },
-    {
-      "tag":"cold",
-      "patterns":[
-        "I have a cold",
-        "I am suffering from cold",
-        "I am having a common cold",
-        "I am having a headache due to cold"
-      ],
-      "responses":[
-        "Hey don't worry,cold is a mild viral infection of the nose, throat, sinuses and upper airways. It's very common and usually clears up on its own within a week or two"
-      ]
-    },
-    {
-      "tag":"cold symptoms",
-      "patterns":[
-        "What are the symptoms for common cold",
-        "Tell me the symptoms of cold",
-        "Can you tell me the symptoms of cold"
-      ],
-      "responses":[
-        "The main symptoms of a cold include: 1.A sore throat 2.A blocked or runny nose 3.sneezing 4.A cough..More severe symptoms, including a high temperature (fever), headache and aching muscles can also occur, although these tend to be associated more with flu"
-      ]
-    },
-    {
-      "tag":"about",
-      "patterns":[
-        "Who are you",
-        "what is your name",
-        "Tell me about yourself"
-      ],
-      "responses":[
-        "Hello!! My name is Aaisha ,I am Artificially Intelligent Virtual Health Assistant"
-      ]
-    },
-    {
-      "tag":"age",
-      "patterns":[
-        "Aisha how old are you",
-        "how old are you",
-        "what is your age",
-        "tell me your age"
-      ],
-      "responses":[
-        "Hey I am just zero years old now!"
-      ]
-    },
-    {
-      "tag":"greet aisha",
-      "patterns":[
-        "Hello Aisha",
-        "Hi Aisha",
-        "hey Aisha",
-        "What's up Aisha"
-      ],
-      "responses":[
-        "Hello Sabeel !!,How can i help you"
-      ]
-    },
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey!",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag":"annoying",
-      "patterns":[
-        "You are annoying",
-        "Are you annoying",
-        "why are you annoying"
-      ],
-      "responses":[
-        "No!! I am not annoying i am quite funny"
-      ]
-    },
-    {
-      "tag":"you are bad",
-      "patterns":[
-        "You are bad",
-        "You are very bad"
-      ],
-      "responses":[
-        "Sorry But i am really smart"
-      ]
-    },
-    {
-      "tag":"beautiful",
-      "patterns":[
-        "You are beautiful",
-        "you are just Awesome",
-        "you are really beautiful",
-        "You are so smart"
-      ],
-      "responses":[
-        "Thank You !!"
-      ]
-    },
-    {
-      "tag":"birthday",
-      "patterns":[
-        "when is your birthday aisha??",
-        "When is your birthday",
-        "When you were born",
-        "What is your date of birth"
-      ],
-      "responses":[
-        "My Birthday is on fourteenth August 2020"
-      ]
-    },{
-      "tag":"boring",
-      "patterns":[
-        "Your are boring",
-        "You are boring me",
-        "You are so boring",
-        "Why are you boring me now"
-      ],
-      "responses":[
-        "Sorry,I didn't mean that"
-      ]
-    },{
-      "tag":"boss",
-      "patterns":[
-        "Aisha who is your boss",
-        "What is your boss name",
-        "Who is your boss aisha"
-      ],
-      "responses":[
-        "My boss is Sabeel"
-      ]
-    },
-    {
-      "tag":"busy",
-      "patterns":[
-        "Are you busy",
-        "Are you busy Aisha",
-        "You look busy",
-        "I think you are busy"
-      ],
-      "responses":[
-        "Yes!! I am busy talking with you"
-      ]
-    },
-    {
-      "tag":"help",
-      "patterns":[
-        "can you help me",
-        "Aisha i need help",
-        "can you help me Aisha",
-        "Aisha I need your help"
-      ],
-      "responses":[
-        "Hey I am here for you only!,what help do you want from me"
-      ]
-    },
-    {
-      "tag":"chatbot",
-      "patterns":[
-        "Are you a chatbot",
-        "You are a chatbot"
-      ],
-      "responses":[
-        "Yes I am Artificially Intelligent Virtual Health Assistance"
-      ]
-    },
-    {
-      "tag":"clever",
-      "patterns":[
-        "You are so clever",
-        "Are you clever",
-        "You are very clever"
-      ],
-      "responses":[
-        "Yess..Thanks by the way"
-      ]
-    },
-    {
-      "tag":"crazy",
-      "patterns":[
-        "You are so crazy",
-        "you looks crazy"
-      ],
-      "responses":[
-        "Not that much but yeah little bit"
-      ]
+	"intents" : [
+        {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hii",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hey!",
+              "Hello, thanks for visiting",
+              "Hi there, what can I do for you?",
+              "Hi there, how can I help you?"
+            ]
+          },
+		{
+			"tag":	"Fungal infection",
+			"patterns": [
+				"What is Fungal infection",
+				"I might have Fungal infection",
+		        "I am suffering from Fungal infection",
+		        "I am having a Fungal infection"
+			],
+			"responses": [
+				"In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle."
+			]
+		},
+		{
+	    	"tag":"Fungal infection symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Fungal infection",
+		        "Tell me the symptoms of Fungal infection",
+		        "Can you tell me the symptoms of Fungal infection"
+			],
+	      	"responses":[
+	        	"The main symptoms of Fungal infection are: itching,  skin rash,  nodal skin eruptions,  dischromic patches. "
+	      	]
+	    },
+	    {
+	      	"tag":"Fungal infection precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Fungal infection",
+	        	"What should i do to prevent Fungal infection",
+	        	"How to save myself from Fungal infection",
+	        	"Cure for Fungal infection"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: avoid fatty spicy food, consume witch hazel, warm bath with epsom salt. Also try to consume some alovera juice."
+	      	]
+	    },
 
-    },
-    {
-      "tag":"funny",
-      "patterns":[
-        "You are really funny",
-        "Your are funny"
-      ],
-      "responses":[
-        "Yes I am"
-      ]
-    }
-  ]
+	    
+		{
+			"tag":	"Malaria",
+			"patterns": [
+				"What is Malaria",
+				"I might have Malaria",
+		        "I am suffering from Malaria",
+		        "I am having Malaria"
+			],
+			"responses": ["Malaria is an infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion."]
+		},
+		{
+	    	"tag":"Malaria symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Malaria",
+		        "Tell me the symptoms of Malaria",
+		        "Can you tell me the symptoms of Malaria"
+			],
+	      	"responses":[
+	        	"The main symptoms of Malaria are:  vomiting, high fever, sweating, headache,  muscle pain and  diarrhoea."
+	      	]
+	    },
+	    {
+	      	"tag":"Maleria precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Maleria",
+	        	"What should i do to prevent Maleria",
+	        	"How to save myself from Maleria",
+	        	"Cure for Maleria"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: avoid oily food,keep mosquitos out, avoid non veg food. In severe cases u should Consult nearest hospital."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Allergy",
+			"patterns": [
+				"What is Allergy",
+				"I might have Allergy",
+		        "I am suffering from Allergy",
+		        "I am having Allergy"
+			],
+			"responses": ["An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander."]
+		},
+		{
+	    	"tag":"Allergy symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Allergy",
+		        "Tell me the symptoms of Allergy",
+		        "Can you tell me the symptoms of Allergy"
+			],
+	      	"responses":[
+	        	"The main symptoms of Allergy are:  continuous sneezing, shivering, watering from eyes and  chills."
+	      	]
+	    },
+	    {
+	      	"tag":"Allergy precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Allergy",
+	        	"What should i do to prevent Allergy",
+	        	"How to save myself from Allergy",
+	        	"Cure for Allergy"
+	      	],
+	      	"responses":[
+	        	"You should use use ice to compress itching, cover area with bandage, and also apply calamine."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Hypothyroidism",
+			"patterns": [
+				"What is Hypothyroidism",
+				"I might have Hypothyroidism",
+		        "I am suffering from Hypothyroidism",
+		        "I am having Hypothyroidism"
+			],
+			"responses": ["Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone."]
+		},
+		{
+	    	"tag":"Hypothyroidism symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hypothyroidism",
+		        "Tell me the symptoms of Hypothyroidism",
+		        "Can you tell me the symptoms of Hypothyroidism"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hypothyroidism are: fatigue, weight gain, cold hands and feets, dizziness, puffy face and eyes, enlarged thyroid, brittle nails, swollen extremeties, depression. Girls May also experience abnormal menstruation."
+	      	]
+	    },
+	    {
+	      	"tag":"Hypothyroidism precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hypothyroidism",
+	        	"What should i do to prevent Hypothyroidism",
+	        	"How to save myself from Hypothyroidism",
+	        	"Cure for Hypothyroidism"
+	      	],
+	      	"responses":[
+	        	"It is advised that you eat healthy, get proper sleep, exercise and reduce stress."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Psoriasis",
+			"patterns": [
+				"What is Psoriasis",
+				"I might have Psoriasis",
+		        "I am suffering from Psoriasis",
+		        "I am having Psoriasis"
+			],
+			"responses": ["Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back."]
+		},
+		{
+	    	"tag":"Psoriasis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Psoriasis",
+		        "Tell me the symptoms of Psoriasis",
+		        "Can you tell me the symptoms of Psoriasis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Psoriasis are: skin rash, joint pain, skin peeling, silver like dusting, small dents in nails, inflammatory nails."
+	      	]
+	    },
+	    {
+	      	"tag":"Psoriasis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Psoriasis",
+	        	"What should i do to prevent Psoriasis",
+	        	"How to save myself from Psoriasis",
+	        	"Cure for Psoriasis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: wash hands with warm soapy water, stop bleeding using pressure, consult doctor and salt baths."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"GERD",
+			"patterns": [
+				"What is GERD",
+				"I might have GERD",
+		        "I am suffering from GERD",
+		        "I am having GERD"
+			],
+			"responses": ["Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD."]
+		},
+		{
+	    	"tag":"GERD symptoms",
+	      	"patterns":[
+		        "What are the symptoms for GERD",
+		        "Tell me the symptoms of GERD",
+		        "Can you tell me the symptoms of GERD"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of GERD are: stomach pain, acidity, ulcers on tongue, vomiting, cough, chest pain."
+	      	]
+	    },
+	    {
+	      	"tag":"GERD precautions",
+	      	"patterns":[
+	        	"What are the precautions for the GERD",
+	        	"What should i do to prevent GERD",
+	        	"How to save myself from GERD",
+	        	"Cure for GERD"
+	      	],
+	      	"responses":[
+	        	" You should avoid fatty spicy food, avoid lying down after eating and maintain healthy weight exercise."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Chronic cholestasis",
+			"patterns": [
+				"What is Chronic cholestasis",
+				"I might have Chronic cholestasis",
+		        "I am suffering from Chronic cholestasis",
+		        "I am having Chronic cholestasis"
+			],
+			"responses": ["Chronic cholestatic diseases, whether occurring in infancy, childhood or adulthood, are characterized by defective bile acid transport from the liver to the intestine, which is caused by primary damage to the biliary epithelium in most cases."]
+		},
+		{
+	    	"tag":"Chronic cholestasis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Chronic cholestasis",
+		        "Tell me the symptoms of Chronic cholestasis",
+		        "Can you tell me the symptoms of Chronic cholestasis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Chronic cholestasis are:  itching, vomiting, yellowish skin, nausea, loss of appetite, abdominal pain, yellowing of eyes."
+	      	]
+	    },
+	    {
+	      	"tag":"Chronic cholestasis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Chronic cholestasis",
+	        	"What should i do to prevent Chronic cholestasis",
+	        	"How to save myself from Chronic cholestasis",
+	        	"Cure for Chronic cholestasis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: cold baths, anti itch medicine, consult doctor, eat healthy."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"hepatitis A",
+			"patterns": [
+				"What is hepatitis A",
+				"I might have hepatitis A",
+		        "I am suffering from hepatitis A",
+		        "I am having hepatitis A"
+			],
+			"responses": ["Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. The virus is one of several types of hepatitis viruses that cause inflammation and affect your liver's ability to function."]
+		},
+		{
+	    	"tag":"hepatitis A symptoms",
+	      	"patterns":[
+		        "What are the symptoms for hepatitis A",
+		        "Tell me the symptoms of hepatitis A",
+		        "Can you tell me the symptoms of hepatitis A"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of hepatitis A are: joint pain, vomiting, yellowish skin, dark urine, loss of appetite, abdominal pain, diarrhoea, mild fever, yellowing of eyes, and muscle pain."
+	      	]
+	    },
+	    {
+	      	"tag":"hepatitis A precautions",
+	      	"patterns":[
+	        	"What are the precautions for the hepatitis A",
+	        	"What should i do to prevent hepatitis A",
+	        	"How to save myself from hepatitis A",
+	        	"Cure for hepatitis A"
+	      	],
+	      	"responses":[
+	        	"You should consult a doctor as soon as possible. Also wash hands through and avoid fatty spicy food."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Osteoarthristis",
+			"patterns": [
+				"What is Osteoarthristis",
+				"I might have Osteoarthristis",
+		        "I am suffering from Osteoarthristis",
+		        "I am having Osteoarthristis"
+			],
+			"responses": ["Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time."]
+		},
+		{
+	    	"tag":"Osteoarthristis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Osteoarthristis",
+		        "Tell me the symptoms of Osteoarthristis",
+		        "Can you tell me the symptoms of Osteoarthristis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Osteoarthristis are: neck pain, knee pain, hip joint pain, swelling joints, painful walking."
+	      	]
+	    },
+	    {
+	      	"tag":"Osteoarthristis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Osteoarthristis",
+	        	"What should i do to prevent Osteoarthristis",
+	        	"How to save myself from Osteoarthristis",
+	        	"Cure for Osteoarthristis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: acetaminophen, take salt baths. You Should also consult nearest hospital."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Paroymsal Positional Vertigo",
+			"patterns": [
+				"What is Paroymsal  Positional Vertigo",
+				"I might have Paroymsal  Positional Vertigo",
+		        "I am suffering from Paroymsal  Positional Vertigo",
+		        "I am having Paroymsal  Positional Vertigo"
+			],
+			"responses": ["Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo” the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness."]
+		},
+		{
+	    	"tag":"Paroymsal  Positional Vertigo symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Paroymsal  Positional Vertigo",
+		        "Tell me the symptoms of Paroymsal  Positional Vertigo",
+		        "Can you tell me the symptoms of Paroymsal  Positional Vertigo"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Paroymsal  Positional Vertigo are: vomiting, headache, nausea, spinning movements, loss of balance, unsteadiness."
+	      	]
+	    },
+	    {
+	      	"tag":"Paroymsal  Positional Vertigo precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Paroymsal  Positional Vertigo",
+	        	"What should i do to prevent Paroymsal  Positional Vertigo",
+	        	"How to save myself from Paroymsal  Positional Vertigo",
+	        	"Cure for Paroymsal  Positional Vertigo"
+	      	],
+	      	"responses":[
+	        	"You should lie down, avoid sudden change in body, avoid abrupt head movment and relax."
+	      	]
+	    },
+
+
+	    
+		{
+			"tag":	"Hypoglycemia",
+			"patterns": [
+				"What is Hypoglycemia",
+				"I might have Hypoglycemia",
+		        "I am suffering from Hypoglycemia",
+		        "I am having Hypoglycemia"
+			],
+			"responses": [" Hypoglycemia is a condition in which your blood sugar (glucose) level is lower than normal. Glucose is your body's main energy source. Hypoglycemia is often related to diabetes treatment. But other drugs and a variety of conditions â€” many rare â€” can cause low blood sugar in people who don't have diabetes."]
+		},
+		{
+	    	"tag":"Hypoglycemia symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hypoglycemia",
+		        "Tell me the symptoms of Hypoglycemia",
+		        "Can you tell me the symptoms of Hypoglycemia"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hypoglycemia are:  vomiting, fatigue, anxiety, sweating, headache, nausea, blurred and distorted vision, excessive hunger, slurred speech, irritability and palpitations. "
+	      	]
+	    },
+	    {
+	      	"tag":"Hypoglycemia precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hypoglycemia",
+	        	"What should i do to prevent Hypoglycemia",
+	        	"How to save myself from Hypoglycemia",
+	        	"Cure for Hypoglycemia"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: lie down on side, check in pulse, drink sugary drinks and consult doctor if required."
+	      	]
+	    },
+
+	    
+		{
+			"tag":	"Acne",
+			"patterns": [
+				"What is Acne",
+				"I might have Acne",
+		        "I am suffering from Acne",
+		        "I am having Acne"
+			],
+			"responses": ["Acne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland)."]
+		},
+		{
+	    	"tag":"Acne symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Acne",
+		        "Tell me the symptoms of Acne",
+		        "Can you tell me the symptoms of Acne"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Acne are:  skin rash, pus filled pimples, blackheads, scurring. "
+	      	]
+	    },
+	    {
+	      	"tag":"Acne precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Acne",
+	        	"What should i do to prevent Acne",
+	        	"How to save myself from Acne",
+	        	"Cure for Acne"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: bath twice, avoid fatty spicy food, drink plenty of water, avoid too many beauty products."
+	      	]
+        },
+
+
+        {
+			"tag":	"Diabetes",
+			"patterns": [
+				"What is Diabetes",
+				"I might have Diabetes",
+		        "I am suffering from Diabetes",
+		        "I am having Diabetes"
+			],
+			"responses": ["Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy."]
+		},
+		{
+	    	"tag":"Diabetes symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Diabetes",
+		        "Tell me the symptoms of Diabetes",
+		        "Can you tell me the symptoms of Diabetes"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Diabetes are: fatigue, weight loss, lethargy, irregular sugar level, blurred and distorted vision, excessive hunger, increased appetite."
+	      	]
+	    },
+	    {
+	      	"tag":"Diabetes precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Diabetes",
+	        	"What should i do to prevent Diabetes",
+	        	"How to save myself from Diabetes",
+	        	"Cure for Diabetes"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: have balanced diet, exercise ,consult doctor, follow up."
+	      	]
+        },
+
+
+        {
+			"tag":	"Impetigo",
+			"patterns": [
+				"What is Impetigo",
+				"I might have Impetigo",
+		        "I am suffering from Impetigo",
+		        "I am having Impetigo"
+			],
+			"responses": ["Impetigo (im-puh-TIE-go) is a common and highly contagious skin infection that mainly affects infants and children. Impetigo usually appears as red sores on the face, especially around a child's nose and mouth, and on hands and feet. The sores burst and develop honey-colored crusts."]
+		},
+		{
+	    	"tag":"Impetigo symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Impetigo",
+		        "Tell me the symptoms of Impetigo",
+		        "Can you tell me the symptoms of Impetigo"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Impetigo are:  skin rash, high fever, blister, red sore around nose, yellow crust ooze."
+	      	]
+	    },
+	    {
+	      	"tag":"Impetigo precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Impetigo",
+	        	"What should i do to prevent Impetigo",
+	        	"How to save myself from Impetigo",
+	        	"Cure for Impetigo"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: soak affected area in warm water, use antibiotics, remove scabs with wet compressed cloth, consult doctor."
+	      	]
+        },
+
+
+        {
+			"tag":	"Hypertension",
+			"patterns": [
+				"What is Hypertension",
+				"I might have Hypertension",
+		        "I am suffering from Hypertension",
+		        "I am having Hypertension"
+			],
+			"responses": ["Hypertension (HTN or HT), also known as high blood pressure (HBP), is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. High blood pressure typically does not cause symptoms."]
+		},
+		{
+	    	"tag":"Hypertension symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hypertension",
+		        "Tell me the symptoms of Hypertension",
+		        "Can you tell me the symptoms of Hypertension"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hypertension are: headache, chest pain, dizziness, loss of balance, lack of concentration."
+	      	]
+	    },
+	    {
+	      	"tag":"Hypertension precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hypertension",
+	        	"What should i do to prevent Hypertension",
+	        	"How to save myself from Hypertension",
+	        	"Cure for Hypertension"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: meditation, salt baths, reduce stress, get proper sleep."
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Peptic ulcer disease",
+			"patterns": [
+				"What is Peptic ulcer disease",
+				"I might have Peptic ulcer disease",
+		        "I am suffering from Peptic ulcer disease",
+		        "I am having Peptic ulcer disease"
+			],
+			"responses": ["Peptic ulcer disease (PUD) is a break in the inner lining of the stomach, the first part of the small intestine, or sometimes the lower esophagus. An ulcer in the stomach is called a gastric ulcer, while one in the first part of the intestines is a duodenal ulcer."]
+		},
+		{
+	    	"tag":"Peptic ulcer disease symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Peptic ulcer disease",
+		        "Tell me the symptoms of Peptic ulcer disease",
+		        "Can you tell me the symptoms of Peptic ulcer disease"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Peptic ulcer disease are: vomiting, loss of appetite, abdominal pain, passage of gases, internal itching. "
+	      	]
+	    },
+	    {
+	      	"tag":"Peptic ulcer disease precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Peptic ulcer disease",
+	        	"What should i do to prevent Peptic ulcer disease",
+	        	"How to save myself from Peptic ulcer disease",
+	        	"Cure for Peptic ulcer disease"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: avoid fatty spicy food, consume probiotic food, eliminate milk, limit alcohol . "
+	      	]
+        },
+
+
+        {
+			"tag":	"Dimorphic hemorrhoids (piles)",
+			"patterns": [
+				"What is Dimorphic hemorrhoids",
+				"I might have Dimorphic hemorrhoids",
+		        "I am suffering from Dimorphic hemorrhoids",
+		        "I am having Dimorphic hemorrhoids"
+			],
+			"responses": ["Hemorrhoids, also spelled haemorrhoids, are vascular structures in the anal canal. Other names are Haemorrhoids, piles, hemorrhoidal disease ."]
+		},
+		{
+	    	"tag":"Dimorphic hemorrhoids symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Dimorphic hemorrhoids",
+		        "Tell me the symptoms of Dimorphic hemorrhoids",
+		        "Can you tell me the symptoms of Dimorphic hemorrhoids"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Dimorphic hemorrhoids are:  constipation, pain during bowel movements, bloody stool, irritation in anus, pain in anal region."
+	      	]
+	    },
+	    {
+	      	"tag":"Dimorphic hemorrhoids precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Dimorphic hemorrhoids",
+	        	"What should i do to prevent Dimorphic hemorrhoids",
+	        	"How to save myself from Dimorphic hemorrhoids",
+	        	"Cure for Dimorphic hemorrhoids"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: avoid fatty spicy food, consume witch hazel, warm bath with epsom salt, consume alovera juice."
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Common Cold",
+			"patterns": [
+				"What is Common Cold",
+				"I might have Common Cold",
+		        "I am suffering from Common Cold",
+		        "I am having Common Cold"
+			],
+			"responses": ["The common cold is a viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way. Many types of viruses can cause a common cold."]
+		},
+		{
+	    	"tag":"Common Cold symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Common Cold",
+		        "Tell me the symptoms of Common Cold",
+		        "Can you tell me the symptoms of Common Cold"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Common Cold are: continuous sneezing, chills, fatigue, cough, high fever, headache, swelled lymph nodes, malaise, throat irritation, redness of eyes, runny nose, chest pain, loss of smell, muscle pain."
+	      	]
+	    },
+	    {
+	      	"tag":"Common Cold precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Common Cold",
+	        	"What should i do to prevent Common Cold",
+	        	"How to save myself from Common Cold",
+	        	"Cure for Common Cold"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: drink vitamin c rich drinks, take vapour, avoid cold food, keep fever in check."
+	      	]
+        },
+
+
+        {
+			"tag":	"Drug Reaction",
+			"patterns": [
+				"What is Drug Reaction",
+				"I might have Drug Reaction",
+		        "I am suffering from Drug Reaction",
+                "I am having Drug Reaction",
+                "I have got Drug Reaction"
+			],
+			"responses": ["An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs."]
+		},
+		{
+	    	"tag":"Drug Reaction symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Drug Reaction",
+		        "Tell me the symptoms of Drug Reaction",
+		        "Can you tell me the symptoms of Drug Reaction"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Drug Reaction are: itching, skin rash, stomach pain, burning micturition, spotting urination."
+	      	]
+	    },
+	    {
+	      	"tag":"Drug Reaction precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Drug Reaction",
+	        	"What should i do to prevent Drug Reaction",
+	        	"How to save myself from Drug Reaction",
+	        	"Cure for Drug Reaction"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: stop irritation, consult nearest hospital, stop taking drug, follow up. "
+	      	]
+        },
+
+        {
+			"tag":	"Chicken pox",
+			"patterns": [
+				"What is Chicken pox",
+				"I might have Chicken pox",
+		        "I am suffering from Chicken pox",
+                "I am having Chicken pox"
+			],
+			"responses": ["Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash. The rash first appears on the chest, back, and face, and then spreads over the entire body, causing between 250 and 500 itchy blisters. "]
+		},
+		{
+	    	"tag":"Chicken pox symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Chicken pox",
+		        "Tell me the symptoms of Chicken pox",
+		        "Can you tell me the symptoms of Chicken pox"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Chicken pox are:itching, skin rash, fatigue, lethargy, high fever, headache, loss of appetite, mild fever, swelled lymph nodes, red spots over body. "
+	      	]
+	    },
+	    {
+	      	"tag":"Chicken pox precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Chicken pox",
+	        	"What should i do to prevent Chicken pox",
+	        	"How to save myself from Chicken pox",
+	        	"Cure for Chicken pox"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: use neem in bathing , consume neem leaves, take vaccine, avoid public places. "
+	      	]
+        },
+
+
+        {
+			"tag":	"Cervical spondylosis",
+			"patterns": [
+				"What is Cervical spondylosis",
+				"I might have Cervical spondylosis",
+		        "I am suffering from Cervical spondylosis",
+                "I am having Cervical spondylosis"
+			],
+			"responses": ["Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs). "]
+		},
+		{
+	    	"tag":"Cervical spondylosis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Cervical spondylosis",
+		        "Tell me the symptoms of Cervical spondylosis",
+		        "Can you tell me the symptoms of Cervical spondylosis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Cervical spondylosis are:  weakness in limbs,back pain, neck pain, dizziness, loss of balance."
+	      	]
+	    },
+	    {
+	      	"tag":"Cervical spondylosis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Cervical spondylosis",
+	        	"What should i do to prevent Cervical spondylosis",
+	        	"How to save myself from Cervical spondylosis",
+	        	"Cure for Cervical spondylosis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: use heating pad or cold pack, exercise, take otc pain reliver, consult doctor. "
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Hyperthyroidism",
+			"patterns": [
+				"What is Hyperthyroidism",
+				"I might have Hyperthyroidism",
+		        "I am suffering from Hyperthyroidism",
+                "I am having Hyperthyroidism"
+			],
+			"responses": ["Hyperthyroidism (overactive thyroid) occurs when your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body's metabolism, causing unintentional weight loss and a rapid or irregular heartbeat."]
+		},
+		{
+	    	"tag":"Hyperthyroidism symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hyperthyroidism",
+		        "Tell me the symptoms of Hyperthyroidism",
+		        "Can you tell me the symptoms of Hyperthyroidism"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hyperthyroidism are: fatigue, mood swings, weight loss, restlessness, sweating, diarrhoea, fast heart rate, excessive hunger, muscle weakness, irritability, abnormal menstruation. "
+	      	]
+	    },
+	    {
+	      	"tag":"Hyperthyroidism precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hyperthyroidism",
+	        	"What should i do to prevent Hyperthyroidism", 
+	        	"How to save myself from Hyperthyroidism",
+	        	"Cure for Hyperthyroidism"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: eat healthy, massage, use lemon balm, take radioactive iodine treatment."
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Urinary tract infection",
+			"patterns": [
+				"What is Urinary tract infection",
+				"I might have Urinary tract infection",
+		        "I am suffering from Urinary tract infection",
+                "I am having Urinary tract infection"
+			],
+			"responses": ["Urinary tract infection: An infection of the kidney, ureter, bladder, or urethra. Abbreviated UTI. Not everyone with a UTI has symptoms, but common symptoms include a frequent urge to urinate and pain or burning when urinating."]
+		},
+		{
+	    	"tag":"Urinary tract infection symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Urinary tract infection",
+		        "Tell me the symptoms of Urinary tract infection",
+		        "Can you tell me the symptoms of Urinary tract infection"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Urinary tract infection are:  burning micturition, bladder discomfort, foul smell of urine, continuous feel of urine."
+	      	]
+	    },
+	    {
+	      	"tag":"Urinary tract infection precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Urinary tract infection",
+	        	"What should i do to prevent Urinary tract infection", 
+	        	"How to save myself from Urinary tract infection",
+	        	"Cure for Urinary tract infection"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: drink plenty of water,increase vitamin c intake,drink cranberry juice,take probiotics."
+	      	]
+        },
+        {
+			"tag":	"Varicose veins",
+			"patterns": [
+				"What is Varicose veins",
+				"I might have Varicose veins",
+		        "I am suffering from Varicose veins",
+                "I am having Varicose veins"
+			],
+			"responses": ["Urinary tract infection: An infection of the kidney, ureter, bladder, or urethra. Abbreviated UTI. Not everyone with a UTI has symptoms, but common symptoms include a frequent urge to urinate and pain or burning when urinating."]
+		},
+		{
+	    	"tag":"Varicose veins symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Varicose veins",
+		        "Tell me the symptoms of Varicose veins",
+		        "Can you tell me the symptoms of Varicose veins"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Varicose veins are: fatigue, cramps, bruising, obesity, swollen legs, swollen blood vessels, prominent veins on calf ."
+	      	]
+	    },
+	    {
+	      	"tag":"Varicose veins precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Varicose veins",
+	        	"What should i do to prevent Varicose veins", 
+	        	"How to save myself from Varicose veins",
+	        	"Cure for Varicose veins"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: lie down flat and raise the leg high, use oinments, use oinments, use vein compression, dont stand still for long."
+	      	]
+        },
+
+
+
+
+        {
+			"tag":	"AIDS",
+			"patterns": [
+				"What is AIDS",
+				"I might have AIDS",
+		        "I am suffering from AIDS",
+                "I am having AIDS"
+			],
+			"responses": ["Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease."]
+		},
+		{
+	    	"tag":"AIDS symptoms",
+	      	"patterns":[
+		        "What are the symptoms for AIDS",
+		        "Tell me the symptoms of AIDS",
+		        "Can you tell me the symptoms of AIDS"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of AIDS are:  muscle wasting, patches in throat, high fever, extra marital contacts."
+	      	]
+	    },
+	    {
+	      	"tag":"AIDS precautions",
+	      	"patterns":[
+	        	"What are the precautions for the AIDS",
+	        	"What should i do to prevent AIDS", 
+	        	"How to save myself from AIDS",
+	        	"Cure for AIDS"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are:avoid open cuts, wear ppe if possible, consult doctor, follow up. "
+	      	]
+        },
+
+
+        {
+			"tag":	"Paralysis ",
+			"patterns": [
+				"What is Paralysis ",
+		        "I am suffering from Paralysis ",
+                "I am having Paralysis "
+			],
+			"responses": ["Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body."]
+		},
+		{
+	    	"tag":"Paralysis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Paralysis",
+		        "Tell me the symptoms of Paralysis",
+		        "Can you tell me the symptoms of Paralysis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Paralysis are: vomiting, headache, weakness of one body side, altered sensorium. "
+	      	]
+	    },
+	    {
+	      	"tag":"Paralysis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Paralysis",
+	        	"What should i do to prevent Paralysis", 
+	        	"How to save myself from Paralysis",
+	        	"Cure for Paralysis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: massage, eat healthy, exercise, consult doctor."
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Typhoid",
+			"patterns": [
+				"What is Typhoid ",
+				"I might have Typhoid",
+		        "I am suffering from Typhoid",
+                "I am having Typhoid "
+			],
+			"responses": ["An acute illness characterized by fever caused by infection with the bacterium Salmonella typhi. Typhoid fever has an insidious onset, with fever, headache, constipation, malaise, chills, and muscle pain. Diarrhea is uncommon, and vomiting is not usually severe."]
+		},
+		{
+	    	"tag":"Typhoid symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Typhoid",
+		        "Tell me the symptoms of Typhoid",
+		        "Can you tell me the symptoms of Typhoid"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Typhoid are:  chills, vomiting,fatigue, high fever, nausea, constipation, abdominal pain, diarrhoea, toxic look (typhos), belly pain."
+	      	]
+	    },
+	    {
+	      	"tag":"Typhoid precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Typhoid",
+	        	"What should i do to prevent Typhoid", 
+	        	"How to save myself from Typhoid",
+	        	"Cure for Typhoid"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: eat high calorie vegitables, antiboitic therapy, consult doctor, medication. "
+	      	]
+        },
+        {
+			"tag":	"Hepatitis B",
+			"patterns": [
+				"What is Hepatitis B ",
+				"I might have Hepatitis B",
+		        "I am suffering from Hepatitis B",
+                "I am having Hepatitis B "
+			],
+			"responses": ["Hepatitis B is an infection of your liver. It can cause scarring of the organ, liver failure, and cancer. It can be fatal if it isn't treated. It's spread when people come in contact with the blood, open sores, or body fluids of someone who has the hepatitis B virus."]
+		},
+		{
+	    	"tag":"Hepatitis B symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hepatitis B",
+		        "Tell me the symptoms of Hepatitis B",
+		        "Can you tell me the symptoms of Hepatitis B"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hepatitis B are: itching, fatigue, lethargy, yellowish skin, dark urine, loss of appetite, abdominal pain, yellow_urine, yellowing of eyes, malaise, receiving blood transfusion, receiving unsterile injections. "
+	      	]
+	    },
+	    {
+	      	"tag":"Hepatitis B precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hepatitis B",
+	        	"What should i do to prevent Hepatitis B", 
+	        	"How to save myself from Hepatitis B",
+	        	"Cure for Hepatitis B"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are:  consult nearest hospital, vaccination, eat healthy, medication."
+	      	]
+        },
+
+
+        {
+			"tag":	"Fungal infection",
+			"patterns": [
+				"What is Fungal infection ",
+				"I might have Fungal infection",
+		        "I am suffering from Fungal infection",
+                "I am having Fungal infection "
+			],
+			"responses": ["In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi."]
+		},
+		{
+	    	"tag":"Fungal infection symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Fungal infection",
+		        "Tell me the symptoms of Fungal infection",
+		        "Can you tell me the symptoms of Fungal infection"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Fungal infection are: itching, skin rash, nodal skin eruptions, dischromic patches."
+	      	]
+	    },
+	    {
+	      	"tag":"Fungal infection precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Fungal infection",
+	        	"What should i do to prevent Fungal infection", 
+	        	"How to save myself from Fungal infection",
+	        	"Cure for Fungal infection"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: bath twice, use detol or neem in bathing water, keep infected area dry, use clean cloths."
+	      	]
+        },
+
+        {
+			"tag":	"Hepatitis C",
+			"patterns": [
+				"What is Hepatitis C ",
+				"I might have Hepatitis C",
+		        "I am suffering from Hepatitis C",
+                "I am having Hepatitis C "
+			],
+			"responses": ["Inflammation of the liver due to the hepatitis C virus (HCV), which is usually spread via blood transfusion (rare), hemodialysis, and needle sticks. The damage hepatitis C does to the liver can lead to cirrhosis and its complications as well as cancer."]
+		},
+		{
+	    	"tag":"Hepatitis C symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hepatitis C",
+		        "Tell me the symptoms of Hepatitis C",
+		        "Can you tell me the symptoms of Hepatitis C"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hepatitis C are: fatigue, yellowish skin, nausea, loss of appetite, yellowing of eyes, family history."
+	      	]
+	    },
+	    {
+	      	"tag":"Hepatitis C precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hepatitis C",
+	        	"What should i do to prevent Hepatitis C", 
+	        	"How to save myself from Hepatitis C",
+	        	"Cure for Hepatitis C"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: Consult nearest hospital, vaccination, eat healthy, medication. "
+	      	]
+        },
+
+
+
+        {
+			"tag":	"Migraine",
+			"patterns": [
+				"What is Migraine",
+				"I might have Migraine",
+		        "I am suffering from Migraine",
+                "I am having Migraine "
+			],
+			"responses": ["A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities."]
+		},
+		{
+	    	"tag":"Migraine symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Migraine",
+		        "Tell me the symptoms of Migraine",
+		        "Can you tell me the symptoms of Migraine"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Migraine are: acidity, indigestion, headache, blurred and distorted vision, excessive hunger, stiff neck, depression, irritability, visual disturbances. "
+	      	]
+	    },
+	    {
+	      	"tag":"Migraine precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Migraine",
+	        	"What should i do to prevent Migraine", 
+	        	"How to save myself from Migraine",
+	        	"Cure for Migraine"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: meditation, reduce stress, use poloroid glasses in sun, consult doctor. "
+	      	]
+        },
+
+
+        {
+			"tag":	"Bronchial Asthma",
+			"patterns": [
+				"What is Bronchial Asthma",
+				"I might have Bronchial Asthma",
+		        "I am suffering from Bronchial Asthma",
+                "I am having Bronchial Asthma "
+			],
+			"responses": ["Bronchial asthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling, the air path produces excess mucus making it hard to breathe, which results in coughing, short breath, and wheezing. The disease is chronic and interferes with daily working."]
+		},
+		{
+	    	"tag":"Bronchial Asthma symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Bronchial Asthma",
+		        "Tell me the symptoms of Bronchial Asthma",
+		        "Can you tell me the symptoms of Bronchial Asthma"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Bronchial Asthma are:  fatigue, cough, high fever, breathlessness, family history, mucoid sputum. "
+	      	]
+	    },
+	    {
+	      	"tag":"Bronchial Asthma precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Bronchial Asthma",
+	        	"What should i do to prevent Bronchial Asthma", 
+	        	"How to save myself from Bronchial Asthma",
+	        	"Cure for Bronchial Asthma"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: switch to loose cloothing, take deep breaths, get away from trigger, seek help.  "
+	      	]
+        },
+
+
+        {
+			"tag":	"Alcoholic hepatitis",
+			"patterns": [
+				"What is Alcoholic hepatitis",
+				"I might have Alcoholic hepatitis",
+		        "I am suffering from Alcoholic hepatitis",
+                "I am having Alcoholic hepatitis "
+			],
+			"responses": ["Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use. If you develop this condition, you must stop drinking alcohol."]
+		},
+		{
+	    	"tag":"Alcoholic hepatitis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Alcoholic hepatitis",
+		        "Tell me the symptoms of Alcoholic hepatitis",
+		        "Can you tell me the symptoms of Alcoholic hepatitis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Alcoholic hepatitis are:  vomiting, yellowish skin, abdominal pain, swelling of stomach, distention of abdomen, history of alcohol consumption, fluid overload."
+	      	]
+	    },
+	    {
+	      	"tag":"Alcoholic hepatitis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Alcoholic hepatitis",
+	        	"What should i do to prevent Alcoholic hepatitis", 
+	        	"How to save myself from Alcoholic hepatitis",
+	        	"Cure for Alcoholic hepatitis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: stop alcohol consumption, consult doctor, medication, follow up."
+	      	]
+        },
+
+        {
+			"tag":	"Jaundice",
+			"patterns": [
+				"What is Jaundice",
+				"I might have Jaundice",
+		        "I am suffering from Jaundice",
+                "I am having Jaundice "
+			],
+			"responses": ["Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the morbus regius (the regal disease) in the belief that only the touch of a king could cure it."]
+		},
+		{
+	    	"tag":"Jaundice symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Jaundice",
+		        "Tell me the symptoms of Jaundice",
+		        "Can you tell me the symptoms of Jaundice"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Jaundice are: itching, vomiting, fatigue, weight loss, high fever, yellowish skin, dark urine, abdominal pain. "
+	      	]
+	    },
+	    {
+	      	"tag":"Jaundice precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Jaundice",
+	        	"What should i do to prevent Jaundice", 
+	        	"How to save myself from Jaundice",
+	        	"Cure for Jaundice"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: drink plenty of water, consume milk thistle, eat fruits and high fiberous food, medication."
+	      	]
+		},
+		
+
+
+		{
+			"tag":	"Hepatitis E",
+			"patterns": [
+				"What is Hepatitis E",
+				"I might have Hepatitis E",
+		        "I am suffering from Hepatitis E",
+                "I am having Hepatitis E "
+			],
+			"responses": ["A rare form of liver inflammation caused by infection with the hepatitis E virus (HEV). It is transmitted via food or drink handled by an infected person or through infected water supplies in areas where fecal matter may get into the water. Hepatitis E does not cause chronic liver disease."]
+		},
+		{
+	    	"tag":"Hepatitis E symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hepatitis E",
+		        "Tell me the symptoms of Hepatitis E",
+		        "Can you tell me the symptoms of Hepatitis E"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hepatitis E are: joint pain, vomiting, fatigue, high fever, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes, acute liver failure, coma, stomach bleeding. "
+	      	]
+	    },
+	    {
+	      	"tag":"Hepatitis E precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hepatitis E",
+	        	"What should i do to prevent Hepatitis E", 
+	        	"How to save myself from Hepatitis E",
+	        	"Cure for Hepatitis E"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: stop alcohol consumption, rest, consult doctor, medication."
+	      	]
+		},
+		
+
+		{
+			"tag":	"Dengue",
+			"patterns": [
+				"What is Dengue",
+				"I might have Dengue",
+		        "I am suffering from Dengue",
+                "I am having Dengue "
+			],
+			"responses": ["an acute infectious disease caused by a flavivirus (species Dengue virus of the genus Flavivirus), transmitted by aedes mosquitoes, and characterized by headache, severe joint pain, and a rash. — called also breakbone fever, dengue fever."]
+		},
+		{
+	    	"tag":"Dengue symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Dengue",
+		        "Tell me the symptoms of Dengue",
+		        "Can you tell me the symptoms of Dengue"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Dengue are: skin rash, chills, joint pain, vomiting,  fatigue,  high fever,  headache, nausea, loss of appetite, pain behind the eyes, back pain, malaise, muscle pain, red spots over body."
+	      	]
+	    },
+	    {
+	      	"tag":"Dengue precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Dengue",
+	        	"What should i do to prevent Dengue", 
+	        	"How to save myself from Dengue",
+	        	"Cure for Dengue"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: drink papaya leaf juice, avoid fatty spicy food, keep mosquitos away, keep hydrated. "
+	      	]
+		},
+		
+
+
+		{
+			"tag":	"Hepatitis D",
+			"patterns": [
+				"What is Hepatitis D",
+				"I might have Hepatitis D",
+		        "I am suffering from Hepatitis D",
+                "I am having Hepatitis D "
+			],
+			"responses": ["Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV)."]
+		},
+		{
+	    	"tag":"Hepatitis D symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Hepatitis D",
+		        "Tell me the symptoms of Hepatitis D",
+		        "Can you tell me the symptoms of Hepatitis D"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Hepatitis D are:  joint pain, vomiting, fatigue, yellowish skin, dark urine, nausea, loss of appetite, abdominal pain, yellowing of eyes."
+	      	]
+	    },
+	    {
+	      	"tag":"Hepatitis D precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Hepatitis D",
+	        	"What should i do to prevent Hepatitis D", 
+	        	"How to save myself from Hepatitis D",
+	        	"Cure for Hepatitis D"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: consult doctor, medication, eat healthy, follow up."
+	      	]
+		},
+
+		{
+			"tag":	"Heart attack",
+			"patterns": [
+				"What is Heart attack",
+				"I might have Heart attack",
+		        "I am suffering from Heart attack",
+                "I am having Heart attack "
+			],
+			"responses": ["The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle."]
+		},
+		{
+	    	"tag":"Heart attack symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Heart attack",
+		        "Tell me the symptoms of Heart attack",
+		        "Can you tell me the symptoms of Heart attack"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Heart attack are:  vomiting, breathlessness, sweating, chest pain."
+	      	]
+	    },
+	    {
+	      	"tag":"Heart attack precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Heart attack",
+	        	"What should i do to prevent Heart attack", 
+	        	"How to save myself from Heart attack",
+	        	"Cure for Heart attack"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are:call ambulance, chew or swallow asprin, keep calm."
+	      	]
+		},
+		
+		{
+			"tag":	"Pneumonia",
+			"patterns": [
+				"What is Pneumonia",
+				"I might have Pneumonia",
+		        "I am suffering from Pneumonia",
+                "I am having Pneumonia "
+			],
+			"responses": ["Pneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe."]
+		},
+		{
+	    	"tag":"Pneumonia symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Pneumonia",
+		        "Tell me the symptoms of Pneumonia",
+		        "Can you tell me the symptoms of Pneumonia"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Pneumonia are: chills, fatigue, cough, high fever, breathlessness, sweating, malaise, phlegm, chest pain, fast heart rate, rusty sputum."
+	      	]
+	    },
+	    {
+	      	"tag":"Pneumonia precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Pneumonia",
+	        	"What should i do to prevent Pneumonia", 
+	        	"How to save myself from Pneumonia",
+	        	"Cure for Pneumonia"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: consult doctor, medication, rest, follow up."
+	      	]
+		},
+		{
+			"tag":	"Arthritis",
+			"patterns": [
+				"What is Arthritis",
+				"I might have Arthritis",
+		        "I am suffering from Arthritis",
+                "I am having Arthritis "
+			],
+			"responses": ["Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis."]
+		},
+		{
+	    	"tag":"Arthritis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Arthritis",
+		        "Tell me the symptoms of Arthritis",
+		        "Can you tell me the symptoms of Arthritis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Arthritis are: muscle weakness, stiff neck, swelling joints, movement stiffness, painful walking ."
+	      	]
+	    },
+	    {
+	      	"tag":"Arthritis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Arthritis",
+	        	"What should i do to prevent Arthritis", 
+	        	"How to save myself from Arthritis",
+	        	"Cure for Arthritis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: exercise, use hot and cold therapy, try acupuncture, massage ."
+	      	]
+		},
+		
+
+		{
+			"tag":	"Gastroenteritis",
+			"patterns": [
+				"What is Gastroenteritis",
+				"I might have Gastroenteritis",
+		        "I am suffering from Gastroenteritis",
+                "I am having Gastroenteritis "
+			],
+			"responses": ["Gastroenteritis is an inflammation of the digestive tract, particularly the stomach, and large and small intestines. Viral and bacterial gastroenteritis are intestinal infections associated with symptoms of diarrhea , abdominal cramps, nausea , and vomiting ."]
+		},
+		{
+	    	"tag":"Gastroenteritis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Gastroenteritis",
+		        "Tell me the symptoms of Gastroenteritis",
+		        "Can you tell me the symptoms of Gastroenteritis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Gastroenteritis are: vomiting, sunken eyes, dehydration, diarrhoea."
+	      	]
+	    },
+	    {
+	      	"tag":"Gastroenteritis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Gastroenteritis",
+	        	"What should i do to prevent Gastroenteritis", 
+	        	"How to save myself from Gastroenteritis",
+	        	"Cure for Gastroenteritis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: stop eating solid food for while, try taking small sips of water, rest, ease back into eating ."
+	      	]
+		},
+		
+
+		{
+			"tag":	"Tuberculosis",
+			"patterns": [
+				"What is Tuberculosis",
+				"I might have Tuberculosis",
+		        "I am suffering from Tuberculosis",
+                "I am having Tuberculosis "
+			],
+			"responses": ["Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections show no symptoms, in which case it is known as latent tuberculosis."]
+		},
+		{
+	    	"tag":"Tuberculosis symptoms",
+	      	"patterns":[
+		        "What are the symptoms for Tuberculosis",
+		        "Tell me the symptoms of Tuberculosis",
+		        "Can you tell me the symptoms of Tuberculosis"
+		        
+			],
+	      	"responses":[
+	        	"The main symptoms of Tuberculosis are: chills, vomiting, fatigue, weight loss, cough, high fever, breathlessness, sweating, loss of appetite, mild fever, yellowing of eyes, swelled lymph nodes, malaise, phlegm, chest pain, blood in sputum."
+	      	]
+	    },
+	    {
+	      	"tag":"Tuberculosis precautions",
+	      	"patterns":[
+	        	"What are the precautions for the Tuberculosis",
+	        	"What should i do to prevent Tuberculosis", 
+	        	"How to save myself from Tuberculosis",
+	        	"Cure for Tuberculosis"
+	      	],
+	      	"responses":[
+	        	"Some of the common precautions you can take are: cover mouth, consult doctor, medication, rest."
+	      	]
+		}
+
+	]
 }
